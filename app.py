@@ -61,9 +61,9 @@ marker_cluster = MarkerCluster().add_to(m)
 for _, row in gdf.iterrows():
     popup_content = f"""
     Country: {row['Entity']}<br>
-    GDP per Capita: {row['gdp_per_capita']}<br>
+    GDP per Capita (USD): {row['gdp_per_capita']}<br>
     GDP growth: {row['gdp_growth']}<br>
-    Land Area : {row['Land Area(Km2)']}<br>
+    Land Area (Km2) : {row['Land Area(Km2)']}<br>
     Latitude  : {row['Latitude']}<br>
     Longitude  : {row['Longitude']}<br>
     """
