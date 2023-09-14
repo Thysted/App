@@ -18,7 +18,7 @@ from pycountry_convert import country_alpha2_to_continent_code, country_name_to_
 #Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('https://github.com/Thysted/App/blob/main/global_sustainable_energy.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/Thysted/App/main/global_sustainable_energy.csv')
     return df
 df = load_data()
 
