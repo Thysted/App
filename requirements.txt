@@ -1,0 +1,11 @@
+altair==5.1.1
+folium==0.14.0
+geopandas==0.13.2
+matplotlib==3.7.2
+numpy==1.25.2
+pandas==2.1.0
+pycountry_convert==0.7.2
+seaborn==0.12.2
+Shapely==2.0.1
+streamlit==1.26.0
+streamlit_folium==0.13.0
